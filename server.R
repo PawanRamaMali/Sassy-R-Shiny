@@ -4,7 +4,7 @@ server <- function(input, output, session) {
   source('./server/login.R', local = TRUE)
 
   # * Hashing Functionality ----
-  source('./server/hash.R', local = TRUE)
+  source('./server/hexagon_frame.R', local = TRUE)
   
   
 }
